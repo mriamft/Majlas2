@@ -13,7 +13,7 @@
 <body>
     <header>
         <img src="image/tapImage.PNG" alt="Majlas's Logo" width="200">
-        <button type="button" onclick="window.location.href = 'index.html'" class="log-out">
+        <button type="button" onclick="window.location.href = 'ClientHomepage.html'" class="log-out">
             <img src="image/Log-Out.png" alt="log-out">
         </button>        
     </header>
@@ -69,7 +69,7 @@
                         </button>-->
                         
 <!--                        <div class="dropdown-content">-->
-                            <form action="index.php" method="POST">
+                            <form action="ClientHomepage.php" method="POST">
                                 <select name="cat" id="cat">
                                     <?php 
                                         $sql="SELECT * FROM DesignCategory";
